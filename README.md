@@ -72,9 +72,13 @@ Steps:
 
 ## Explainability
 
-Grad-CAM is used to visualize the **regions of the MRI contributing to the model prediction**.
+Grad-CAM is used to visualize the regions of the MRI contributing to the model prediction.
 
-To improve interpretability, Grad-CAM heatmaps are constrained using a **brain mask**, ensuring attention is localized within the anatomical brain region.
+To improve interpretability, Grad-CAM heatmaps are constrained using a brain mask, ensuring attention is localized within the anatomical brain region.
+
+### Example Visualization
+
+![GradCAM Example](figures/gradcam_example.png)
 
 ---
 
