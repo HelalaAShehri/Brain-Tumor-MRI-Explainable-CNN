@@ -78,7 +78,7 @@ To improve interpretability, Grad-CAM heatmaps are constrained using a brain mas
 
 ### Example Visualization
 
-![GradCAM Example](Brain-Tumor-MRI-Explainable-CNN/gradcam_example.png)
+![GradCAM Example](Brain-Tumor-MRI-Explainable-CNN/figures/gradcam_example.png)
 
 ---
 
