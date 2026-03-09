@@ -44,11 +44,9 @@ The code allows users to:
   - Provides an overview of the project, usage instructions, and example visualizations.
 
 ---
-## 📊 Dataset
+## Dataset
 
 The model was trained and evaluated on the **Brain Tumor MRI Dataset** available on Kaggle, curated by Masoud Nickparvar. It combines images from three sources (Figshare, SARTAJ, Br35H) and contains 7,023 MRI images across the four classes.
-
-If you use this dataset, please cite it as:
 
 > Nickparvar, M. (2021). Brain Tumor MRI Dataset. Kaggle.  
 > https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
