@@ -9,26 +9,35 @@ The repository allows users to reproduce the **inference and explainability resu
 ---
 
 ## Repository Structure
-Brain-Tumor-MRI-Explainable-CNN
-│
 
-├── colab
+- **Desktop_App/**
+  - Contains a lightweight desktop application for running the model locally.
+  - Includes the main interface script (`MudrekApp.py`) along with supporting assets such as fonts, icons, and interface resources.
 
-| └── Brain_Tumor_MRI_GradCAM_Demo.ipynb
+- **colab/**
+  - Contains the Google Colab notebook used for inference and explainability.
+  - **Brain_Tumor_MRI_GradCAM_Demo.ipynb** demonstrates how to:
+    - download the pretrained model,
+    - perform brain tumor classification,
+    - visualize Grad-CAM explanations.
 
-├── sample_images
+- **figures/**
+  - Stores figures used in the repository documentation.
+  - **gradcam_example.png** shows an example Grad-CAM visualization highlighting tumor regions in MRI images.
 
-│ ├── glioma_01.jpg
+- **sample_images/**
+  - Example MRI images used for demonstration and testing.
+  - Includes representative samples from each class:
+    - glioma
+    - meningioma
+    - pituitary
+    - no tumor
 
-│ ├── meningioma_01.jpg
+- **requirements.txt**
+  - Lists the Python dependencies required to run the inference notebook.
 
-│ ├── pituitary_01.jpg
-
-│ └── notumor_01.jpg
-
-├── requirements.txt
-
-└── README.md
+- **README.md**
+  - Provides an overview of the project, usage instructions, and example visualizations.
 
 ---
 
