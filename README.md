@@ -96,12 +96,12 @@ To improve interpretability, Grad-CAM heatmaps are constrained using a brain mas
 
 ### Example Visualization
 
-![GradCAM Example](Brain-Tumor-MRI-Explainable-CNN/figures/gradcam_example.png)
+![GradCAM Example](figures/gradcam_example.png)
 
 ---
 
 ## Disclaimer
 
-This repository is intended **for research purposes only** and should not be used for clinical diagnosis.
+This repository is intended **for research purposes only** and should not be used for clinical diagnosis. The model and code are not approved for clinical use and should not be used for medical diagnosis or treatment decisions. Always consult qualified healthcare professionals for medical advice.
 
 
