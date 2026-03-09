@@ -34,13 +34,32 @@ Brain-Tumor-MRI-Explainable-CNN
 
 ## Model Weights
 
-Due to GitHub file size limitations, the pretrained model is hosted on Google Drive.
+Due to GitHub file size limitations, the pretrained model is hosted on Google Drive:
 
-The model can be downloaded here:
+🔗 [Download pretrained model](https://drive.google.com/file/d/1B9bfeIz6B3rUxW2LJg7Ze850_wde8ade/view)
 
-https://drive.google.com/file/d/1B9bfeIz6B3rUxW2LJg7Ze850_wde8ade/view
+The Google Colab notebook **automatically downloads** the model before running inference.
 
-The Google Colab notebook automatically downloads the model before running inference.
+---
+
+## Model Input Specifications
+
+| Property | Value |
+|----------|-------|
+| Image resolution | 125 × 125 pixels |
+| Channels | 1 (grayscale) |
+| Classes | glioma, meningioma, pituitary, notumor |
+
+---
+
+## Running the Demo
+
+1. Open the notebook: [`colab/Brain_Tumor_MRI_GradCAM_Demo.ipynb`](colab/Brain_Tumor_MRI_GradCAM_Demo.ipynb)
+2. Run the model download cell
+3. Load the pretrained model
+4. Upload or select MRI images from `sample_images/`
+5. Run inference
+6. Visualize Grad-CAM attention maps
 
 ---
 
@@ -52,7 +71,6 @@ Channels: 1
 
 
 Classes: glioma, meningioma, pituitary, notumor
-
 
 ---
 
