@@ -4,8 +4,12 @@ This repository provides the **pretrained CNN model and demonstration notebook**
 
 **“An Interpretable Lightweight CNN Framework for Multi-Class Brain Tumor Classification from MRI.”**
 
-The repository allows users to reproduce the **inference and explainability results** using Grad-CAM.
+The model classifies brain MRI images into four categories: **glioma, meningioma, pituitary tumor, and no tumor**. It is designed to be computationally efficient while maintaining high accuracy, and it integrates **Grad-CAM** explainability to highlight the regions influencing each prediction.
 
+The code allows users to:
+- Load the pretrained model
+- Run inference on custom MRI images
+- Generate Grad-CAM heatmaps for visual explanations
 ---
 
 ## Repository Structure
@@ -40,7 +44,15 @@ The repository allows users to reproduce the **inference and explainability resu
   - Provides an overview of the project, usage instructions, and example visualizations.
 
 ---
+## 📊 Dataset
 
+The model was trained and evaluated on the **Brain Tumor MRI Dataset** available on Kaggle, curated by Masoud Nickparvar. It combines images from three sources (Figshare, SARTAJ, Br35H) and contains 7,023 MRI images across the four classes.
+
+If you use this dataset, please cite it as:
+
+> Nickparvar, M. (2021). Brain Tumor MRI Dataset. Kaggle.  
+> https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+---
 ## Model Weights
 
 Due to GitHub file size limitations, the pretrained model is hosted on Google Drive:
